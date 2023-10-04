@@ -1,0 +1,48 @@
+Catatan meeting 1 30/8/23
+-Hubungan apa jenis apa
+-2 perbedaan dalam basis data database sama database management system
+Database koleksi data disimpan dalam database
+Data structure data” tabular
+Gambar suara audio video tidak struktur
+Dbms software yang kita gunakan untuk berinteraksi dengan data
+Mau setor data ambil hapus
+Fokus ke bagian dbms contohnya kumpulan” buku bagaimana kita bisa baca tulis organize buku
+
+Dbms menjembatani data dan penggunanya contoh: kasus bisnis data terkait produk, customer, transaksi bagaimana cara kelola data tersebut harus pakai dbms
+Komponen dbms
+-data saling berelasi contoh: data semester prodi data di berbagai divisi saling terkoneksi satu sama lain
+-program apa yang digunakan untuk mengakses
+-lingkungan yang cocok
+Karakteristik data yang dikelola
+-highly valuable yang aman penting 
+-ukuran besar 
+-akses dari berbagai divisi
+Modern db system
+-Harus mampu menghandle data
+-Data adalah minyak yang baru
+
+Informasi data enterprise
+-gaji 
+-sales customers product purchases
+-Accounting payments receipts assets
+-Airlines: reservations
+
+Sebelum ditemukan dbms
+Pendekatan direct to data siapapun bisa mengakses data
+1 Data redundancy: data yang sama ada 2 atau lebih
+8 Atomisity kirim uang stuck dari bank ke bank
+Data model
+Data
+Data relationships jika mahasiswa tau pelajaran dari enrollment
+D semantic tanggal bisa menunjukkan enrollment date 
+D constraints
+-usia mahasiswa ga boleh negative
+-nim harus unique
+Relational
+Entity-Relationship
+Object-based
+Relational model
+
+SQL
+Create table ID unik bisa tau semuanya
+Authorization siapa yang bisa access
