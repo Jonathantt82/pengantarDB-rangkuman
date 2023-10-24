@@ -1,0 +1,27 @@
+Catatan meeting 4/10/23
+Integrity constraints menjaga accidental damage foreign key tabel asal datanya berkurang batasan
+Checking account harus lebih besar $10000 contoh saldo tertinggal 50000
+Dipastikan $4 setiap jam
+Phone number ga boleh 0 numeric object batasa jumlah digit batasan digit
+Constraints paling umum notnull, unique data harus berbeda alamat harus beda, primary key paling unique sebagai penanda, check predikat
+Nama
+Check memastikan batasannya hanya di example jangan diluar dari example fall, winter, spring, or summer menjadi primary key
+Referential integrity relasi muncul
+Di tabel penulis primary key id nama penulis author ID foreign key
+Ad ID no 2 
+Jika terjadi kesalahan data tersebut hilang alternatif untuk mengatasi pakai on delete cascade sama on delete set null on delete cascade
+On delete set null sehingga tetap ada informasinya hanya author ID NULL tidak lagi dikenali
+Check condition bikin tabel buku buku tersebut minimal 3 karakter
+Assertion rata rata salary harus di bawah 70000 jika
+Uts kombinasi 1-6 yang coba di lab diskusikan
+Indexing mirip primary ky kita mau tahu index ke sekian dapet 1 tuple atau baris seluruh column dalam data
+Mencari data harus cepat dan efficient tidak memakan processor yang cukup besar
+Di sql cara memanfaatkan index
+Discussion 6.1 di sql tipe data ada 3 bagian utama build in data types sama large object types contoh penggunaan seperti apa harus ada example dokumen rapih harus jelas ada screenshot tuliskan perannya apa bisa di word bisa di docs hasil share di teamss 
+Authorization access terhadap data siapa yang berhak menghapus selesct query update
+Setiap tipe di authorization disebut privillege harus ada rolenya 
+Access grant memberikan access view yang mana role adit dion user dikelompokkan assign
+Bikin role lecturer semua di lecturer punya access yang sama
+Revoke access
+Membuat user baru user tersebut kita bikin role kemudian kitaberikan grant access masuk ke takes priviledge select dan insert untuk revoke
+
