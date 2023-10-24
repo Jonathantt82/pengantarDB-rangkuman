@@ -1,0 +1,34 @@
+Catatan meeting 2 6/9/23
+Attributes-column
+Tuples-rows
+attribute - A1 A2….An
+R=(A1 A2….An) relation scheme
+Db schema:logical structure of database
+Instance: snapshot database
+
+Superkey ID langsung menunjukkan semua row
+Candidate key 
+Primary key ID karena tidak kembar perhatikan yang unique
+Foreign key primary key pada 1 table asalnya sebagai kolom yang dijadikan rujukan sama tabel lain
+Dept_name foreign key
+
+2.3 Pre req.id(course.id, prereq.id)
+PK= course.id, prereq.id
+2.4 Department(depart_name, building, budget)
+PK= depart_name
+
+Select dari tuples
+Project column dari mana saja mengambilkan column tertentu
+Cartesian product mengkombinasikan 2 tuple dari tabrl yang berbeda
+Union 2 tabel dengan column yang sama di gabung
+Dept name comp sci 5 ini
+
+Select depart name physics jumlah kredit 3
+Title dan cedit
+2 tampilkan semua title di mana depart name physics dari tabel force
+3 digabung hulding budget
+
+C sama D
+Tampil C sama D tidak ulang
+
+Union atribut sama
