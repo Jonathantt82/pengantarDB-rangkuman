@@ -16,3 +16,15 @@
 - _Poin-poin Utama_
 - _Contoh/Use-Case_
 - _Catatan Tambahan_
+
+Catatan meeting 20/9/23
+Bisa dikelompokan berdasarkan group by itu pengelompokan
+Avg rata rata
+Distinct buat mencari unique value ada 7 jurusan
+Sum menjumlahkan seluruh data
+Count menentuin berapa banyak datanya 
+Having criteria condition tertentu
+Tampil tabel avg salary berdasarkan dept name hanya tampilkan data yang avg salary having 65000
+Set membership apakah ada data spesifik mengecek nama terdaftar di acara atau tidak
+IN di 2017 ada mata kuliah abcd
+2017 disiapin dulu terus spring 2018 disimpan sementyara course idnya ada ga di si
