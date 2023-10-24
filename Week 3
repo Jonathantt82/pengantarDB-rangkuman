@@ -1,34 +1,47 @@
-Catatan meeting 2 6/9/23
-Attributes-column
-Tuples-rows
-attribute - A1 A2….An
-R=(A1 A2….An) relation scheme
-Db schema:logical structure of database
-Instance: snapshot database
+## 📘 My Personal Notes
 
-Superkey ID langsung menunjukkan semua row
-Candidate key 
-Primary key ID karena tidak kembar perhatikan yang unique
-Foreign key primary key pada 1 table asalnya sebagai kolom yang dijadikan rujukan sama tabel lain
-Dept_name foreign key
+### 🗓️ Week 3
 
-2.3 Pre req.id(course.id, prereq.id)
-PK= course.id, prereq.id
-2.4 Department(depart_name, building, budget)
-PK= depart_name
+- _Poin-poin Utama_
+- _Contoh/Use-Case_
+- _Catatan Tambahan_
 
-Select dari tuples
-Project column dari mana saja mengambilkan column tertentu
-Cartesian product mengkombinasikan 2 tuple dari tabrl yang berbeda
-Union 2 tabel dengan column yang sama di gabung
-Dept name comp sci 5 ini
+- _Poin-poin Utama_
+- _Contoh/Use-Case_
+- _Catatan Tambahan_
 
-Select depart name physics jumlah kredit 3
-Title dan cedit
-2 tampilkan semua title di mana depart name physics dari tabel force
-3 digabung hulding budget
+Catatan meeting 13/9/23
+Commercial developments contoh beekeeper studio
+SQL parts fokus di data manipulation language DML
+Data definition language DDL
+2 datanya berapa banyak
+Viewing volume ada 10 ada 5
+Unique constraints memastikan data unique bukan duplicate
+Check constraints harge jangan negatif
+Transaction control untuk kegiatan transacitohal
+Embedded dynamic sql lebih flexible sql kaku lebih dinamis input pengguna
+Authorization pengguna
 
-C sama D
-Tampil C sama D tidak ulang
+Data definition language
 
-Union atribut sama
+Menentuka tipe data di setiap atributnya string, integer
+Integrity constrains yang mana primary foreign key
+Domain types
+String namanya char n menandakan jumlah digit berapa ga kepanjangan 12 digit name
+Integer jumlah lebih kecil
+
+Cara membuat
+Inegrity constraint primary foreign key
+Create table {nama
+ID char jumlah digit 5
+
+Not null primary key
+Name notnull nama ga boleh kosong
+
+
+Foreign key menunjuk ke dept name dirujuk ke referances department
+Tambah 1 informasi check budget 0 tulisan error
+Primary key
+Syntax on delete cascade jika informasi di hapus semua di hapus
+On delete set null informasi building dan room number hapus jadi null
+Coba dibuat 6 tabel 
